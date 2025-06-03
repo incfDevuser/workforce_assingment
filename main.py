@@ -3,13 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
+INSTANCE = 'A'
+
 BASE_DIR = os.path.dirname(__file__)
-POINTS_PATH = os.path.join(BASE_DIR, "POINTS", "POINTS_A.dat")
-GUARDS_PATH = os.path.join(BASE_DIR, "GUARDS", "GUARDS_A.dat")
-ODMATRIX_PATH = os.path.join(BASE_DIR, "ODMATRIX", "ODMATRIX_A.dat")
-LOCATION_PATH = os.path.join(BASE_DIR, "LOCATIONS", "LOCATION_A.dat")
-SOLUTION_PATH = os.path.join(BASE_DIR, "SOLUTIONS", "SOLUTION_A.out")
-VISUAL_PATH = os.path.join(BASE_DIR, "SOLUTIONS", "VISUAL_A.png")
+POINTS_PATH = os.path.join(BASE_DIR, "POINTS", f"POINTS_{INSTANCE}.dat")
+GUARDS_PATH = os.path.join(BASE_DIR, "GUARDS", f"GUARDS_{INSTANCE}.dat")
+ODMATRIX_PATH = os.path.join(BASE_DIR, "ODMATRIX", f"ODMATRIX_{INSTANCE}.dat")
+LOCATION_PATH = os.path.join(BASE_DIR, "LOCATIONS", f"LOCATION_{INSTANCE}.dat")
+SOLUTION_PATH = os.path.join(BASE_DIR, "SOLUTIONS", f"SOLUTION_{INSTANCE}.out")
+VISUAL_PATH = os.path.join(BASE_DIR, "SOLUTIONS", f"VISUAL_{INSTANCE}.png")
 
 SUELDO_MINIMO = 460000
 VALOR_OCASIONAL = 47000
