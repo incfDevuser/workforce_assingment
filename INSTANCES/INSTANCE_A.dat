@@ -1,0 +1,7 @@
+NAME : GUARD_ASSIGNMENT_PROBLEM
+TYPE : WORKFORCE_ASSIGNMENT
+LOCATIONS : 5
+POINTS : 9
+GUARDIAS : 4
+HORIZON : 30
+COMMENT : Instancia mensual con estructura de puntos por locación
